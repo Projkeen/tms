@@ -24,6 +24,8 @@ namespace MyName
             Console.Clear();
 
             Console.WriteLine("Hello " + name + " " + surname + "!");
+
+            Console.ReadLine();
         }
     }
 }
