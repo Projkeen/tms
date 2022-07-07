@@ -1,71 +1,144 @@
 <!DOCTYPE html>
 <html>
-	<head> 
-		<title> just4fun </title>
-	</head>
-		<style>
-			mytag{
-				font-weight: bold;
-			}
-			 p { text-indent: 25px; }
-		</style>
-	<body>
-		<div>
-			<h1 p style="text-indent: 100px; color:MediumSeaGreen;">
-			 Личные данные
-			</h1>
-			 <p style="font-size: 20px">
-			 Прохоров Алексей Владимирович
-			 </p>
-			 <p style="font-size: 20px">
-			  e-mail: Projkeen@outlook.com
-			 </p>
-		</div>
-		<div>
-			<h1 p style="text-indent: 100px;">
-			Послужной список
-			</h1>
-				<p style="font-size: 20px">
-				Организация: БелЖД
-				</p style="font-size: 20px">
-				<p style="font-size: 18px">
-				Должность: Дежурный по сортировочной горке
-				</p>
-				<p style="font-size: 18px">
-				Город: Минск
-				</p>
-				<p style="font-size: 18px">
-				Основные обязанности: Формирование и расформирование поездов
-				</p>
-		</div>
-		<div>
-			<h1 p style="text-indent: 100px;">
-			Образование
-			</h1>
-				<h2 p style="text-indent: 50px;">
-				Техническое
-				</h2>
-				<p style="font-size: 20px">
-			     БелГУТ, факультет "управление процессами перевозок"
-				</p>
-				<p style="font-size: 18px">
-				 Специальность: управление и организация перевозок на железнодорожном транспорте, инженер
-			    </p>
-				<h2 p style="text-indent: 50px;">
-				Экономическое
-				</h2>
-				<p style="font-size: 20px">
-			     БелГУТ, Институт повышения квалификации и переподготовки руководителей и специалистов транспортного комплекса Республики Беларусь
-				</p>
-				<p style="font-size: 18px">
-				 Экономист-логист
-			    </p>		
-		</div>
-		<mytag>
-		biography
-		</mytag>
-		<script>
-			alert ("yo yo");
-		</script>		
-	</body>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset = utf-8" />
+    <title> just4fun </title>
+    <style>
+        mytag {
+            font-weight: bold;
+        }
+
+        div {
+            border: 1px solid;            
+        }
+
+        p {
+            text-indent: 25px;
+            font-size: 20px;
+        }
+
+        h1 {
+            color: grey;
+            text-indent: 100px;
+        }
+
+        .grey {
+            color: gray;
+        }
+
+        #mainHeader {
+            color: red;
+        }
+
+            #mainHeader:hover {
+                color: yellow;
+            }
+
+        .small-text, small-text p {
+            font-size: 18px;
+            color: green;
+        }
+
+            .small-text p:first-child {
+                color: green;
+            }
+
+        small-text > p {
+            color: red;
+        }
+
+        .green.big {
+            color: green;
+        }
+
+        [blue="yes"] {
+            color: blue;
+        }
+
+            [blue="yes"]:hover {
+                color: black;
+            }
+
+        #secondH {
+            text-indent: 50px;
+            color: cyan;
+        }
+
+            #secondH:hover {
+                text-indent: 50px;
+                color: red;
+            }
+
+        .p {
+            font-size: 20px;
+            color: purple;
+        }
+
+            .p:hover {
+                font-size: 20px;
+                color: green;
+            }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>
+            Личные данные
+        </h1>
+        <p blue="yes">
+            Прохоров Алексей Владимирович
+        </p>
+        <p blue="yes">
+            e-mail: Projkeen@outlook.com
+        </p>
+    </div>
+    <div class="small-text">
+        <h1>
+            Послужной список
+        </h1>
+        <p>
+            Организация: БелЖД
+        </p>
+        <p>
+            Должность: Дежурный по сортировочной горке
+        </p>
+        <p>
+            Город: Минск
+        </p>
+        <p>
+            Основные обязанности: Формирование и расформирование поездов
+        </p>
+    </div>
+    <div>
+        <h1>
+            Образование
+        </h1>
+        <h2 id="secondH">
+            Техническое
+        </h2>
+        <p class="p">
+            БелГУТ, факультет "управление процессами перевозок"
+        </p>
+        <p class="p">
+            Специальность: управление и организация перевозок на железнодорожном транспорте, инженер
+        </p>
+        <h2 id="secondH">
+            Экономическое
+        </h2>
+        <p class="p">
+            БелГУТ, Институт повышения квалификации и переподготовки руководителей и специалистов транспортного комплекса Республики Беларусь
+        </p>
+        <p class="p">
+            Экономист-логист
+        </p>
+    </div>
+    <iframe src="https://i.gifer.com/yPT.gif" width="600" height="600">
+    </iframe>
+    <mytag>
+        biography
+    </mytag>
+    <script>
+
+    </script>
+</body>
 </html>
